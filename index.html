@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="slideBox">
+        <span>1</span>
+        <input type="range" min="1" max="100" value="50" id ="barValue" step="1"/>
+        <span>100</span>
+    </div>
+    <div id="valueDiv"> 
+        <output name="newValue" id="userValue">16</output>
+    </div>
+    <div class="gameContent">   
+        <div id="container">
+            
+        </div>
+        <div class="buttonSelection">
+            <p>Instructions:</p>
+                <ul>
+                    <li>Scroll the bar</li>
+                    <li>Pick a number</li>
+                    <li>Pick a mode</li>
+                    <li>Mouseover to draw</ul>
+                </ul>
+            <button id="clearIt">Clear</button>
+            <button id="rainbowBalls">Rainbow-Balls</button>
+            <button id="rainbowSquares">Rainbow-Squares</button>
+            <button id="blackSquares">Black-Squares</button>
+       </div>
+        
+    </div>
+    <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          Abderrahmane Chagour
+        </p>
+</footer>
+    <script src="etch.js"></script>
+</body>
+</html>

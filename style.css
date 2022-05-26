@@ -1,0 +1,106 @@
+
+body{
+  background-color: #948b9c;
+}
+.gameContent{
+  display: flex; 
+  background-color:blueviolet;
+  padding-bottom:15px;
+  border-radius: 10%;
+}
+#container{
+  margin-left: 14%;
+  margin-top:1%;
+  width:450px;
+  height:450px;
+  background-color:palegoldenrod;
+  border: 2px solid black;
+  overflow: hidden;
+  border: 15px olivedrab inset;
+}
+.square{
+  width:31.25px;
+  height:31.25px;
+  display: block;
+  float: left;
+  text-align: center;
+  text-align: center;
+  
+}
+#slideBox{
+  margin-left:20%;
+  width:500px;
+  height:40px;
+  margin-top: 25px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background: black;
+}
+input {
+  padding:8px;
+  width:70% ;
+}
+span{
+  color: white;
+}
+#valueDiv{
+  background-color: aqua;
+  font-weight: bold;
+  font-size:24px;
+  width: 60px;
+  margin-left:36%;
+  text-align: center;
+}
+.trasnform{
+  transition: border-raduis 6s;
+}
+.buttonSelection{
+   background-color: olivedrab;
+   margin-left:3%;
+   display: flex;
+   flex-direction: column;
+ }
+button{
+  color: aqua;
+  display: block;
+  margin: 7px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: blue;
+}
+button:hover{
+  background-color: gray;
+  border-color: whitesmoke;
+  color: black;
+  box-shadow: 0px 0px 10px 5px white;
+}
+p{
+  margin-left: 10px;
+  font-size:20px;
+  font-weight: bold;
+}
+ul{
+  margin-top: 0px;
+}
+li{
+  padding: 10px;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 0;
+  display: block;
+  text-align: center;
+  font-size:medium;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: bisque;
+}
+
+/**.square:hover {
+    background-color: rgb(95, 85, 73);
+}**/
